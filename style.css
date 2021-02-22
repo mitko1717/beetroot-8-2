@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px;
+}
+
+section {
+  background-color: rgb(226, 231, 236);
+  width: 1600px;
+  height: 1300px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.container {
+  height: 1120px;
+  width: 1120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #fff;
+  justify-content: flex-start;
+  width: 360px;
+  height: 540px;
+}
+
+div.cont-bigger {
+  width: 740px;
+  height: 540px;
+  display: flex;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 100)
+    ),
+    url(../img/Layer_8.png);
+  color: #fff;
+  flex-direction: column-reverse;
+  padding-bottom: 40px;
+}
+
+div.cont-bigger h1 {
+  width: 433px;
+  height: 60px;
+  color: #ffffff;
+  font-family: "Hans Kendrick - Heavy";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+div.cont-bigger.info {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 20px 0 0 20px;
+  align-content: end;
+}
+
+div.info {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 20px 0 0 20px;
+}
+
+div.text {
+  font-family: "Hans Kendrick - Heavy";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  letter-spacing: 0.55px;
+}
+
+div.data {
+  width: 133px;
+  height: 13px;
+  color: #818181;
+  font-family: "Hans Kendrick";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+div.cont-bigger.info {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 20px 0 0 20px;
+  color: #fff;
+}
+
+div.foto {
+  margin-top: 50px;
+}
+
+p.foot {
+  color: #99a5b0;
+  font-family: "Hans Kendrick - Heavy";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  margin-bottom: 30px;
+}
